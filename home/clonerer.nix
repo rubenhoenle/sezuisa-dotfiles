@@ -2,7 +2,7 @@
 let
   /* The 'clonerer' is a tool which clones git repos to specified locations and sets up additional git remotes for them. */
 
-  gitBasePath = "/home/sez/SC";
+  gitBasePath = "/SC";
   configFile = pkgs.writeText "clonerer-config.json" (builtins.toJSON [
     {
       name = "portfolio";
